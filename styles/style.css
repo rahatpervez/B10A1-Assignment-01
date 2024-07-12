@@ -1,0 +1,123 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 998px; 
+    margin: 0 auto;
+
+}
+
+.nav-title {
+    font-weight: bolder;
+    font-size: 28px;
+
+}
+
+.text-primary {
+    color: #0D1321;
+    text-decoration: none;
+
+}
+
+nav ul {
+    padding: 0;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+   
+}
+
+nav h3 a {
+
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.dark {
+
+
+    color: #0D1321;
+}
+
+.hero {
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    margin-top: 50px;
+
+}
+
+.hero-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.hero p {
+    text-align: center;
+    max-width: 600px;
+    font-size: 10px;
+}
+
+.hero button {
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0D1321;
+    color: white;
+    cursor: pointer;
+
+}
+
+.hero button:hover {
+    background-color: #0a0f1c;
+
+}
