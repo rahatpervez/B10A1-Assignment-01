@@ -4,6 +4,15 @@
     font-style: normal;
 }
 
+/* body {
+
+    width: 1440px;
+    height: 4462px;
+    background: rgb(255, 255, 255);
+    padding-left: 80px;
+    padding-right: 80px;
+} */
+
 /* header styles */
 .nav-container {
     display: flex;
@@ -457,16 +466,16 @@ main {
 
 .support {
     background-image: url(../assets/handshake.jpg);
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1140px;
     height: 314px;
-    padding: 28px 4px 28px 4px; 
+    padding: 28px 4px 28px 4px;
     border-radius: 16px;
     margin-top: 50px;
-    
-    
+
+
 }
 
 .support-title {
@@ -489,11 +498,29 @@ main {
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    
+
 
 }
+
 /* last */
-.last{
+.name {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
     text-align: center;
+
+}
+
+.last {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px;
+    border-radius: 16px;
+    padding: 32px 150px 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: center;
 }
