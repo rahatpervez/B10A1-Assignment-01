@@ -11,16 +11,26 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles/style.css">
+    <!-- <script src="https://kit.fontawesome.com/03b3cf9833.js" crossorigin="anonymous"></script> -->
+    <script>
+        function scrollToContact() {
+            var contactSection = document.getElementById('contact');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    
 
 </head>
 
-<body class="azeret-mono-normal">
+<body class="main-class">
     <header>
         <nav>
             <div class="nav-container">
-                <h2 class="nav-title"><a class="text-primary" href="">Parvez.R</a></h2>
+                <h2 class="nav-title"><a class="text-primary" href="https://www.instagram.com/mdrahatpervez/reel/C1bjYwyoQMG/" target="_blank">Parvez.R</a></h2>
                 <ul>
-                    <li><a class="dark" href=""><button class="btn-primary">Download Resume</button></a></li>
+                    <li><a class="dark" href=""><button class="btn-primary">
+                        <!-- <i class="fa-solid fa-download"></i>    -->
+                         Download Resume</button></a></li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +44,7 @@
                 <p class="hero-description">Join me on my journey as I transform my passion for coding into a
                     professional career.Discover my skills and projects as I strive to become a proficient and
                     innovative developer.</p>
-                <button>Contact with me</button>
+                    <button onclick="scrollToContact()">Contact with me</button>
             </div>
         </section>
 
@@ -43,14 +53,13 @@
         <div class="importance">
             <div class="reason">
                 <h2 class="reason-title">Why Web Development??</h2>
-                <p class="reason-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text.</p>
+                <p class="reason-description">Web development allows you to create and innovate, turning ideas into reality and making a tangible impact. It offers a dynamic and ever-evolving field with endless opportunities for growth and problem-solving.</p>
 
             </div>
             <div class="reason-main">
                 <div class="reason-1-content">
                     <h4 class="reason-1-title dark">I will Do Coding and Change The World</h4>
-                    <p class="reason-1-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="reason-1-description">Through coding, I aim to drive innovation and make a global impact.
                         industry.</p>
                     <button class="btn-secodary">Learn More</button>
                 </div>
@@ -58,11 +67,10 @@
                 <img class="reason-1-pic" src="./assets/Layer_1.png" alt="">
             </div>
             <div class="reason-middle">
-                <img class="reason-1-pic" src="./assets/Layer_1.png" alt="">
+                <img class="reason-1-pic" src="./assets/Group 3.png" alt="">
                 <div class="reason-1-content">
-                    <h4 class="reason-1-title dark">I will Do Coding and Change The World</h4>
-                    <p class="reason-1-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.</p>
+                    <h4 class="reason-1-title dark">I will help People by creating Modern Web System</h4>
+                    <p class="reason-1-description">I will empower people by developing modern web systems.</p>
                     <button class="btn-secodary">Learn More</button>
                 </div>
 
@@ -70,87 +78,79 @@
             </div>
             <div class="reason-main">
                 <div class="reason-1-content">
-                    <h4 class="reason-1-title dark">I will Do Coding and Change The World</h4>
-                    <p class="reason-1-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.</p>
+                    <h4 class="reason-1-title dark">Empowering Lives Through Advanced Web System Development</h4>
+                    <p class="reason-1-description">Creating impactful solutions through advanced web system development.</p>
                     <button class="btn-secodary">Learn More</button>
                 </div>
 
-                <img class="reason-1-pic" src="./assets/Layer_1.png" alt="">
+                <img class="reason-1-pic" src="./assets/Group 4.png" alt="">
             </div>
         </div>
         <div class="video">
             <div class="reason">
                 <h2 class="reason-title">My Inspiration</h2>
-                <p class="reason-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text.</p>
+                <p class="reason-description">Inspiration fuels my journey to create transformative web solutions that empower and enrich lives. Through innovation and dedication, I strive to make a meaningful impact in the digital world.</p>
 
             </div>
             <div class="video-container">
-                <iframe class="border" width="1076" height="550"
-                    src="https://www.youtube.com/embed/7QLhjnNun2k?si=VR69UM4JH-itIuhe" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="border" width="1076" height="550" src="https://www.youtube.com/embed/z0n1aQ3IxWI?si=QItyLzeJALDXXtAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="target">
             <div class="reason">
                 <h2 class="reason-title">My Current Target</h2>
-                <p class="reason-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text.</p>
+                <p class="reason-description">My current target is to master web development frameworks and build scalable, user-centric applications that meet modern digital demands.</p>
             </div>
             <div class="target-container">
                 <div class="way way-html">
                     <img src="./assets/html.png" alt="">
                     <h3 class="target-title">HTML</h3>
-                    <p class="target-description">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <a class="click" href="">Learn More</a>
+                    <p class="target-description">HTML forms the foundation of web pages, defining their structure and content.</p>
+                    <a class="click" href="https://www.w3schools.com/html/" target="_blank">Learn More</a>
                 </div>
                 <div class="way way-css">
                     <img src="./assets/css.png" alt="">
                     <h3 class="target-title">CSS</h3>
-                    <p class="target-description">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <a class="click" href="">Learn More</a>
+                    <p class="target-description">CSS enhances HTML by styling and presenting web pages, ensuring aesthetic appeal and user experience.</p>
+                    <a class="click" href="https://www.w3schools.com/css/" target="_blank">Learn More</a>
                 </div>
                 <div class="way way-js">
                     <img src="./assets/js.png" alt="">
                     <h3 class="target-title">JavaScript</h3>
-                    <p class="target-description">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <a class="click" href="">Learn More</a>
+                    <p class="target-description">JavaScript empowers dynamic and interactive web experiences through client-side scripting.</p>
+                    <a class="click" href="https://www.w3schools.com/js/" target="_blank">Learn More</a>
                 </div>
             </div>
         </div>
         <div class="next-target">
             <div class="reason">
                 <h2 class="reason-title">My Next Target</h2>
-                <p class="reason-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text.</p>
+                <p class="reason-description">My next target is to deepen my expertise in backend development, mastering server-side technologies and databases. I aim to build robust, scalable web applications that handle complex business logic and deliver seamless user experiences.</p>
 
             </div>
             <div class="next-target-container">
                 <div class="next-one">
                     <img class="icon" src="./assets/react.png" alt="">
                     <div class="next-two">
-                        <h3 class="target-title">ReactJS</h3>
-                        <p class="target-description">Lorem Ipsum is simply dummy text of the printing.</p>
-                        <a class="click" href="">Learn More</a>
+                        <h3 class="target-title">React</h3>
+                        <p class="target-description">React is a JavaScript library for building user interfaces.</p>
+                        <a class="click" href="https://react.dev/" target="_blank">Learn More</a>
                     </div>
                 </div>
                 <div class="next-one">
                     <img class="icon" src="./assets/nodejs.png" alt="">
                     <div class="next-two">
                         <h3 class="target-title">NodeJs</h3>
-                        <p class="target-description">Lorem Ipsum is simply dummy text of the printing.</p>
-                        <a class="click" href="">Learn More</a>
+                        <p class="target-description">Node.js is a runtime environment for server-side JavaScript applications.</p>
+                        <a class="click" href="https://nodejs.org/en" target="_blank">Learn More</a>
                     </div>
                 </div>
                 <div class="next-one">
                     <img class="icon" src="./assets/mongodb.png" alt="">
                     <div class="next-two">
                         <h3 class="target-title">MongoDB</h3>
-                        <p class="target-description">Lorem Ipsum is simply dummy text of the printing.</p>
-                        <a class="click" href="">Learn More</a>
+                        <p class="target-description">MongoDB is a NoSQL database that uses a flexible document-based model.</p>
+                        <a class="click" href="https://www.mongodb.com/" target="_blank">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
             <div class="support">
         <div class="support-text">
             <h2 class="support-title">I need Support</h2>
-            <p class="support-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="support-description">I seek support to grow my skills and overcome challenges, aiming to collaborate and learn from diverse perspectives to achieve my goals effectively.</p>
         </div>
         <div class="suggestion">
             <form action="">
@@ -168,13 +168,13 @@
         </div>
     </div>
     </main>
-    <footer>
+    <footer id="contact">
         <div class="last">
-            <h4 class="name">An Open Commitment by Awlad Hossain</h4>
+            <h4 class="name">An Open Commitment by Md Rahat Parvez</h4>
             <div class="social-media">
-               <a href=""><img src="./assets/facebook.png" alt=""></a>
-               <a href=""><img src="./assets/github.png" alt=""></a>
-               <a href=""><img src="./assets/linkedin-icon 1.png" alt=""></a>
+               <a href="https://www.facebook.com/" target="_blank"><img src="./assets/facebook.png" alt=""></a>
+               <a href="https://github.com/" target="_blank"><img src="./assets/github.png" alt=""></a>
+               <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./assets/linkedin-icon 1.png" alt=""></a>
             </div>
         </div>
     </footer>
