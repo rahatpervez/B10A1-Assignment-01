@@ -4,14 +4,14 @@
     font-style: normal;
 }
 
-/* body {
+ /* body {
 
     width: 1440px;
-    height: 4462px;
-    background: rgb(255, 255, 255);
-    padding-left: 80px;
-    padding-right: 80px;
+    align-items: center; 
 } */
+    
+ 
+
 
 /* header styles */
 .nav-container {
@@ -116,6 +116,7 @@ nav h3 a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 
 }
@@ -520,7 +521,7 @@ main {
     align-items: center;
     margin: 32px 0px;
     border-radius: 16px;
-    padding: 32px 150px 32px 150px;
+    padding: 25px 150px 25px 150px;
     background: rgba(13, 19, 33, 0.03);
     justify-content: center;
 }
